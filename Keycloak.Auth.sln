@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keycloak.Auth.Api", "Keycloak.Auth.Api\Keycloak.Auth.Api.csproj", "{F770D39B-FE6B-4AB2-B18F-946926B806D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{050EF31A-0F75-46BF-80A2-B74A7FDBD8EB}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{569A6792-673A-4071-94E6-031B6126ABD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F770D39B-FE6B-4AB2-B18F-946926B806D0} = {569A6792-673A-4071-94E6-031B6126ABD8}
+	EndGlobalSection
+EndGlobal
