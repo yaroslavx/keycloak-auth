@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  keycloak.auth.api:
+    build:
+      context: "/Users/yaroslavyakupov/Documents/Keycloak.Auth"
+      dockerfile: "Keycloak.Auth.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/Keycloak.Auth.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "keycloakauthapi:dev"
+    ports: []
+    volumes:
+    - "/Users/yaroslavyakupov/Documents/Keycloak.Auth/Keycloak.Auth.Api:/app:rw"
+    - "/Users/yaroslavyakupov/Documents/Keycloak.Auth:/src:rw"
+    - "/Users/yaroslavyakupov/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
