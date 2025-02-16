@@ -8,6 +8,8 @@
     ports:
       - 5050:8080
       - 5051:8081
+    environment:
+      OTEL_EXPORTER_OTLP_ENDPOINT: "http://jaeger:4317"
         
   keycloak:
     image: quay.io/keycloak/keycloak:latest
@@ -22,3 +24,10 @@
     ports:
       - 18080:8080
     
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: Jaeger
+    ports: 
+      - 4317:4317
+      - 4318:4318
+      - 16686:16686
