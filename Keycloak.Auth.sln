@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{569A6792-673A-4071-94E6-031B6126ABD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keycloak.Auth.Proxy", "Keycloak.Auth.Proxy\Keycloak.Auth.Proxy.csproj", "{D887ABF7-60E0-4A7F-91B6-32E1003B920B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +21,13 @@ Global
 		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F770D39B-FE6B-4AB2-B18F-946926B806D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D887ABF7-60E0-4A7F-91B6-32E1003B920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D887ABF7-60E0-4A7F-91B6-32E1003B920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D887ABF7-60E0-4A7F-91B6-32E1003B920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D887ABF7-60E0-4A7F-91B6-32E1003B920B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F770D39B-FE6B-4AB2-B18F-946926B806D0} = {569A6792-673A-4071-94E6-031B6126ABD8}
+		{D887ABF7-60E0-4A7F-91B6-32E1003B920B} = {569A6792-673A-4071-94E6-031B6126ABD8}
 	EndGlobalSection
 EndGlobal
